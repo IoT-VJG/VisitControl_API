@@ -19,7 +19,7 @@
         echo json_encode($response);
       }else{
         $response["error"] = TRUE;
-        $response["opStatus"] = "Credenciales incorrectas!";
+        $response["opStatus"] = "Credenciales incorrectas jeje !";
         echo json_encode($response);
       }
   }else {
